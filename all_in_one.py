@@ -67,6 +67,7 @@ class Assitant():
             webbrowser.open("spotify.com")
             
         elif 'play music' in query:
+            # Add your own directory then only it will work
             music_dir = 'D:\\Music'
             songs = os.listdir(music_dir)
             os.startfile(os.path.join(music_dir, songs[0]))
@@ -87,9 +88,7 @@ frame.place(anchor='center', relx=0.5, rely=0.5)
 img = ImageTk.PhotoImage(Image.open("voice.jpeg"))
 on = Button(win,text="Start", command=a.start).place(relx=0.475,rely=0.27)
 
-# Create an object of tkinter ImageTk
-
-# Create a Label Widget to display the text or Image
+# Create a Label Widget to display the Image
 label = Label(frame, image = img)
 label.pack()
 
