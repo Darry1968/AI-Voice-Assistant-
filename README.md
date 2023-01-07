@@ -153,4 +153,4 @@ There are some drawbacks of this project which are listed below-
 3. Background noise interface.
 4. Could be improved if provided with more!
 
-*Thanks for your support. Happy Reading ;)*
+## *Thanks for your support. Happy Reading ;)*
